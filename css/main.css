@@ -10291,7 +10291,7 @@ button,
 .app-header__logo .logo-src {
     height: 23px;
     width: 97px;
-    background: url(assets/images/)
+    background: url(assets/images/logo1-8.png)
 }
 
 .app-header__menu,
@@ -10418,7 +10418,7 @@ button,
 }
 
 .app-header.header-text-light .app-header__logo .logo-src {
-    background: url(assets/images/logo.png)
+    background: url(assets/images/logo1-8.png)
 }
 
 .app-header.header-text-light .app-header__mobile-menu .hamburger-inner,
@@ -10516,7 +10516,7 @@ button,
 }
 
 .app-header.header-text-dark .app-header__logo .logo-src {
-    background: url(assets/images/)
+    background: url(assets/images/logo1-8.png)
 }
 
 .app-sidebar {
@@ -11125,7 +11125,7 @@ button,
 
 .app-theme-white .app-footer .app-footer__inner,
 .app-theme-white .app-header {
-    background: #f4f4f4;
+    background: #192647;
 }
 
 .app-theme-white.fixed-header .app-header__logo {
