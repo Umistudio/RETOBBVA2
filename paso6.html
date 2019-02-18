@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>RetoBBVA2-paso2</title>
+    <title>RetoBBVA2-paso3</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
     <meta name="description" content="This is an example dashboard created using build-in elements and components.">
     <meta name="msapplication-tap-highlight" content="no">
@@ -28,10 +28,12 @@
         <div class="app-header header-shadow">
             <div class="app-header__logo">
                 <div class="logo-src"></div>
-                <div class="header__pane ml-auto">
-                      <a class="navbar-brand col-sm-3 col-md-2 mr-0 " href="#">Generación de Certificados</a>
-
+                <div class="header__pane ml-auto nav-item">
+                      <a class="navbar-brand col-sm-3 col-md-2 mr-0 text-white">Nombre y número de producto</a>
+                      <h6 class="text-center text-white">Saldo disponible: $00.000.000</h6>
                 </div>
+
+
             </div>
             <div class="app-header__mobile-menu">
                 <div>
@@ -52,6 +54,22 @@
                 </span>
             </div>    
             <div class="app-header__content">
+
+            <div class="app-header-left">
+                    
+                    <ul class="header-menu nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white">
+                                Generación de Certificados
+                            </a>
+                        </li>
+                    </ul>       
+                     </div>
                
                 <div class="app-header-right">
                     <div class="header-btn-lg pr-0">
@@ -94,11 +112,11 @@
                     </div>    <div class="scrollbar-sidebar">
                         <div class="app-sidebar__inner">
                             <ul class="vertical-nav-menu">
-                                <li class="app-sidebar__heading">PASO 1 DE 4</li>
+                                <li class="app-sidebar__heading">PASO 3 DE 4</li>
                                 <li class="sidebar-shadow">
                                     <a  href="#">
                                         <i class="metismenu-icon pe-7s-wallet text-center"></i>
-                                       <strong>Producto</strong> 
+                                       <strong>Detalle</strong> 
                                     </a> 
                                  </li>   
                             </ul>
@@ -107,69 +125,39 @@
                 </div>   
                 <div class="app-main__outer">
                     <div class="app-main__inner">
-                        <div class="app-page-title">
+                        <div class="app-page-title bg-white">
                             <div class="page-title-wrapper">
-                                <div class="page-title-heading ">
-                                    <div>Selecciona un tipo de producto
-                                        <div class="page-title-subheading ">Escoge el producto del cual quiere generar el certificado.
+                                <div class="page-title-heading-p3 ">
+                                    <div><h3>Revisa los detalles del proceso
+                                          y confirma la operación</h3>
+                                        <div class="page-title-subheading ">Haciendo clic en el ícono “editar” podrás modificar el grupo de datos seleccionado
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                                <ul class="body-tabs body-tabs-layout tabs-animated body-tabs-animated nav">
-                            <li class="nav-item">
-                                <a role="tab" class="nav-link text-white" id="tab-0" data-toggle="tab" href="#tab-content-0">
-                                    <span><i class="metismenu-icon pe-7s-wallet text-center"></i>&nbsp;Cuenta de ahorros</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a role="tab" class="nav-link text-white" id="tab-1" data-toggle="tab" href="#tab-content-1">
-                                    <span><i class="metismenu-icon pe-7s-wallet text-center"></i>&nbsp;Cuenta corriente</span>
-                                </a>
-                            </li> 
-                        </ul> 
+                            </div>     
                     </div>
                     <div class="tab-content">
                             <div class="tab-pane tabs-animation fade show active" id="tab-content-0" role="tabpanel">
                                 <div class="row">
                                     <div class="col-md-12">
-                                            <div class="main-card mb-3 card">
-                                            <div class="card-body">
-                                                    <div class="row">
-                                                        <div class="col-md-10">
-                                                           <div class="position-relative form-group">
-                                                        <div>
-                                                            <label class="custom-control border-" ><i class="metismenu-icon pe-7s-wallet text-center"></i>&nbsp;Nómina Brinks •••• •••• 6789</label>
-                                                            <div class="divider"></div>
-                                                            <label class="custom-control" ><i class="metismenu-icon pe-7s-wallet text-center"></i>&nbsp;Cuenta de ahorros •••• •••• 3456</label>
-                                                             <div class="divider"></div>
-                                                            <label class="custom-control"><i class="metismenu-icon pe-7s-wallet text-center"></i>&nbsp;Cuenta de Ahorros 2 •••• •••• 6789</label>
 
-                                                        </div>
-                                                    </div> 
-                                                        </div>
+                                            <div class="main-card mb-3 card bg-success text-center">
+                                                 <div class="card-body ">
+                                                    <button class="mb-2 mr-2 btn  btn-light btn-lg text-success">￼Descargar certificado aquí
+                                                    </button>  
+                                                    <p class="text-center text-white"><i class="metismenu-icon pe-7s-info text-center"></i>&nbsp;La clave para abrir tu certificado es el número de tu documento de identidad</p>            
+                                                  </div>
 
-                                                        <div class="col-md-2">
-                                                           <div class="position-relative form-group">
-                                                        <div>
-                                                            <br>
-                                                            <div class="custom-radio custom-control"><input type="radio" id="exampleCustomRadio" name="customRadio" class="custom-control-input"><label class="custom-control-label" for="exampleCustomRadio"></label></div>
-                                                            <br>
-                                                            <div class="custom-radio custom-control"><input type="radio" id="exampleCustomRadio2" name="customRadio" class="custom-control-input"><label class="custom-control-label" for="exampleCustomRadio2"></label></div>
-                                                            <br>
-                                                            <div class="custom-radio custom-control"><input type="radio" id="exampleCustomRadio3" disabled="" class="custom-control-input"><label class="custom-control-label" for="exampleCustomRadio3"></label></div>
-                                                        </div>
-                                                    </div>
-                                                        </div>
-                                                    </div>
-                                                                                                   
-                                            </div>
-                                        
-                                            <div class="d-block card-footer">
-                                               <div class="nav">
-                                            <a href="paso2.html" class=" mb-2 mr-2 border-0 btn-transition btn btn-outline-primary nav-link"><i class="metismenu-icon pe-7s-close text-center"></i>&nbsp;<span>Cancelar</span></a>
-                                            <a  href="paso3.html" class="nav-link mb-2 mr-2 border-0 btn-transition btn btn-success btn-lg  text-white">Continuar</a>
-                                        </div>
+                                            <div class="d-block card-footer text-center">
+                                            <div class="circulo"><i class="metismenu-icon pe-7s-download"></i></div>
+                                           <span class="text-center">Descargar otro tipo certificado</span>
+
+                                                <div class="alert alert-info alert-dismissible fade show" role="alert">
+                                                    <button type="button" class="close" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                                   No tenemos registrado tu correo electrónico para enviarte una copia de este certificado. Para registrarlo ingresa, en la parte superior de esta página a:
+                                                   <strong>Mi Perfil > Editar mi perfil > Registrar correo.</strong>
+                                                </div>
+                                           
                                              
                                             </div>
                                         </div>
