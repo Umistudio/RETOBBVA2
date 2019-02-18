@@ -5,7 +5,7 @@
 
 <p align="center">
   <strong>
-    <a href="https://github.com/Umistudio/RETOBBVA2.git" target="_blank">View Demo</a> | <a href="https://github.com/modularcode/modular-admin-html/releases" target="_blank">Download ZIP</a>
+    <a href="https://github.com/Umistudio/RETOBBVA2.git" target="_blank">Ver aquí</a> | <a href="https://umistudio.github.io/RETOBBVA2/ " target="_blank">Descargar ZIP</a>
   </strong>
 </p>
 
@@ -17,7 +17,7 @@ git clone https://github.com/Umistudio/RETOBBVA2.git
 ```
 
 
-Ver el proyecto aquí [http://localhost:4000](http://localhost:4000).
+Ver el proyecto aquí [https://umistudio.github.io/RETOBBVA2/. ](https://umistudio.github.io/RETOBBVA2/).
 
 
 
