@@ -10291,7 +10291,7 @@ button,
 .app-header__logo .logo-src {
     height: 23px;
     width: 97px;
-    background: url(assets/images/logo1-8.png)
+    background: url(assets/images/)
 }
 
 .app-header__menu,
@@ -10418,7 +10418,7 @@ button,
 }
 
 .app-header.header-text-light .app-header__logo .logo-src {
-    background: url(assets/images/logo1-8.png)
+    background: url(assets/images/)
 }
 
 .app-header.header-text-light .app-header__mobile-menu .hamburger-inner,
@@ -10516,7 +10516,7 @@ button,
 }
 
 .app-header.header-text-dark .app-header__logo .logo-src {
-    background: url(assets/images/logo1-8.png)
+    background: url(assets/images/)
 }
 
 .app-sidebar {
@@ -10642,8 +10642,9 @@ button,
 }
 
 .vertical-nav-menu li a:hover {
-    background: #192647;
-    text-decoration: none
+    background: #4B79B6;
+    text-decoration: none;
+    color: #f4f4f4;
 
 
 }
@@ -10797,7 +10798,7 @@ button,
 }
 
 .app-sidebar.sidebar-text-light .app-header__logo .logo-src {
-    background: url(assets/images/logo.png)
+    background: url(assets/images/)
 }
 
 .app-sidebar.sidebar-text-light .app-header__logo .hamburger-inner,
@@ -15238,11 +15239,12 @@ a.badge-alternate:focus {
 }
 
 .card-header>.nav .nav-link:hover {
-    color: #3f6ad8
+    color: #f4f4f4;
+    background-color: #4B79B6;
 }
 
 .card-header>.nav .nav-link.active {
-    color: #3f6ad8
+    color: #f4f4f4;
 }
 
 .card-header>.nav .nav-link.active::before {
